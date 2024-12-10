@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página contácto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul id="menu-items">
+                <li><a href="portada.html">Inicio</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="evento.html">Información del Evento</a></li>
+                <li><a href="foto.html">Comparte tu foto con nosotros</a></li>
+                <li><a href="contacto.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+        <div class="contenedor">
+            <p class="texto"><strong>Contácta con nosotros</strong></p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+
+            <div class="formulario ">
+        <form action="/enviar-formulario" method="POST"> 
+            <strong>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="telefono">Telefono:</label>
+            <input type="telefono" id="telefono" name="telefono" required><br><br>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="10" cols="50" required></textarea><br><br>
+    
+            <button type="submit">Enviar</button>
+        </strong>
+        </form>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div class = "cierre">
+            <p>Personaliza tu boda</p>
+                  <p>Puedes encontrarnos en: </p>
+                  <div>
+                      <table>
+                          <th>
+                              <tr><a href=""> <img src="imágenes/logo insta.png" alt="LogoInsta" width="30pt" height="30pt"> </a> </tr>
+                              <tr><a href=""> </a><img src="imágenes/logo fac.jpg" alt="LogoFace" width="30pt" height="30pt"> </tr>
+                          </th>
+                      </table>
+                  </div>
+          </div>   
+    </footer>
+    
+</body>
+</html>

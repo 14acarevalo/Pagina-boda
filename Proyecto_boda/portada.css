@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    text-decoration: dotted;
+    font-style: italic;
+    color: floralwhite;
+}
+
+.bienvenidos {
+    font-size: 36px;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%; /* Ajusta el tamaño del contenedor según tus necesidades */
+}
+
+.contenedor img {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: 400px;
+    object-fit: cover;
+}
+
+.contenedor p {
+    margin: 0;
+    position: absolute;
+    top: 50%; /* Ajusta la posición vertical del texto */
+    left: 50%; /* Ajusta la posición horizontal del texto */
+    transform: translate(-50%, -50%); /* Centra el texto */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Grosor del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para que el texto sea legible sobre la imagen */
+    padding: 10px; /* Espacio interno del texto */
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.menu {
+    margin-top: 10px;
+    position: relative;
+    background-image: url(imágenes/fondoMenu.jpg);
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-toggle {
+    background-image: url(imágenes/fondoPortada.jpg);
+    color: saddlebrown;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.menu-toggle:hover {
+    background-image: url(imágenes/fondoPortada.jpg);
+}
+
+#menu-items {
+    display: flex; /* Establece la lista en un contenedor flexible (horizontal) */
+    justify-content: space-around; /* Espacia uniformemente los elementos */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margen por defecto */
+    list-style: none; /* Elimina los puntos de la lista */
+}
+
+#menu-items li {
+    margin: 0; /* Elimina el margen entre los elementos de la lista */
+}
+
+#menu-items a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: black; /* Color del texto */
+    display: block; /* Para que el área del enlace cubra todo el elemento */
+    padding: 10px 15px; /* Espaciado interno */
+}
+
+#menu-items a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse */
+}
+
+
+
+main {
+    text-align: center;
+   /* background-color: bisque;*/
+    justify-content: center;
+    background-image: url(imágenes/fondoPortada.jpg);
+}
+
+
+
+.fotoNovios {
+    display: flex;
+    justify-content: center; /* Cambiado de 'right' a 'center' */
+    align-items: center; /* Cambiado de 'right' a 'center' */
+    width: 50%;
+    max-width: 100%; /* Ajustar el valor según las necesidades */
+    margin: auto; /* Centrar el contenedor horizontalmente */
+    height: auto; /* Para mantener la proporción de la imagen */
+}
+
+
+footer {
+    margin-top: 5px; /* Reducido el margen superior */
+    background-color: rgba(3, 3, 94, 0.89);
+    color: white;
+    font-size: 1rem; /* Reducido el tamaño de fuente */
+    text-align: center;
+    width: 100%;  
+    align-items: center; 
+}
+
+footer {
+    margin-top: 5px; /* Reducido el margen superior */
+    background-color: rgba(3, 3, 94, 0.89);
+    color: white;
+    font-size: 1rem; /* Reducido el tamaño de fuente */
+    text-align: center;
+    width: 100%;  
+    align-items: center; 
+}
+
+.cierre {
+    margin-top: 5px; /* Reducido el margen superior */
+    background-color: rgba(3, 3, 94, 0.89);
+    color: white;
+    font-size: 1rem; /* Reducido el tamaño de fuente */
+    text-align: center;
+    width: 100%;  
+    align-items: center; 
+}
+
+.fotoPareja img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: auto; /* Mantener la proporción original de la imagen */
+    max-height: 150px; /* Ajustar según tus necesidades */
+    object-fit: cover; /* Opcional: asegura que la imagen cubra el contenedor sin distorsión */
+}
+
+.contact-info {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.contact-info td {
+    padding: 0 10px;
+}
+
+.contact-info a img {
+    border-radius: 50%; /* Hacer que los íconos sean circulares */
+}
+
+.contact-info iframe {
+    border-radius: 10px; /* Redondear los bordes del mapa */
+    border: none;
+}
